@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+body.modo-escuro {
+background-image: url(../imagens/BACKGROUND-SHADOW-HP-NEW.webp);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 25px;
+}
+
+.logo {
+    align-self: flex-start;
+}
+
+.pokebola {
+    align-self: flex-end;
+}
+
+header .logo,
+header .botao-alterar-tema {
+    width: 40px;
+}
+
+header #botao-alterar-tema {
+    background: none;
+    border: none;
+}
+
+header .logo:hover,
+header .botao-alterar-tema:hover,
+.imgContainer:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+body {
+background-image: url(../imagens/back-pikachu-yellow.webp);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    letter-spacing: 5px;
+}
+
+.pokeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    max-width: 1200px;
+}
+
+.pokemon {
+
+    background-color: #e5ffb5;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.imgContainer:hover {
+    background-color: rgba(152, 206, 238, 0.363);
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    transition: 0.2s ease-in-out;
+}
+
+.imgContainer {
+    max-width: 90%;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.number {
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 2px 13px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+.name {
+    margin: 15px 0 7px;
+    letter-spacing: 1.5px;
+}
+
+
+*{
+    cursor: url('../imagens/pikachu-cursor.webp'), auto;
+}
+
+
+.cardsIMG {
+    width: 20%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-family: Comic, sans-serif;
+    font-size: 50%px;
+    color: rgba(71, 165, 168, 0.842);
+    /* outras propriedades de estilo */
+  }
