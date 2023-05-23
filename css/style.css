@@ -125,9 +125,3 @@ h1 {
     margin: 0 auto;
   }
 
-  h1 {
-    font-family: Comic, sans-serif;
-    font-size: 50%px;
-    color: rgba(71, 165, 168, 0.842);
-    /* outras propriedades de estilo */
-  }
